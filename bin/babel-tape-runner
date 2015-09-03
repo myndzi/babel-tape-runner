@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+require('source-map-support').install()
 require('babel-core/register')
 var path = require('path')
 var glob = require('glob')
